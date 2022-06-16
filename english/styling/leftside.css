@@ -1,0 +1,67 @@
+#left-links {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+#left-side-links {
+    margin-top: 0;
+    display: inline-flex;
+}
+
+#left-side-links img{
+    margin: 0 6mm;
+    height: 8mm;
+    width: auto;
+    filter: brightness(0);
+}
+
+#left-side-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(53, 92, 53);
+    color: white;
+    font-size: 5mm;
+    text-align: center;
+    padding: 12mm 3mm 3mm 3mm;
+    width: 30%;
+    min-width: 30%;
+    height: 100%;
+    background: linear-gradient(to bottom right, rgb(42, 117, 42), rgb(7, 56, 22))
+}
+
+#left-side-content #hobbies {
+    margin-top: 20mm;
+}
+
+#left-side-content #hobbies li {
+    text-align: left;
+}
+
+#left-side-information {
+    display: block;
+    margin-bottom: auto;
+}
+
+#left-side-content .spoken-language {
+    width: auto;
+    background: rgba(0, 0, 0, 0.3);
+    margin-top: 3mm;
+    padding: 6mm;
+    font-size: 80%;
+}
+
+#left-side-content .spoken-language h2 {
+    margin: 1mm;
+}
+
+#left-side-content .spoken-language h4 {
+    margin: 0;
+}
+
+#left-side-content .spoken-language img {
+    width: 40mm;
+    height: 20mm;
+    margin: 2mm;
+}
